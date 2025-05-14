@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="box">
+    <h1>Gerador de Senhas</h1>
+
+    <div class="senha-box">
+      <input type="text" id="senha" readonly />
+      <button id="btn-copiar" title="Copiar senha">📋</button>  
+    </div>
+    
+    <p id="msg-copiado" class="msg-copiado">Senha copiada para a área de transferência!</p>
+
+    <div class="opcoes">
+      <label>
+        Tamanho: <span id="valor-tamanho">12</span>
+        <input type="range" id="tamanho" min="4" max="32" value="12" />
+      </label>
+      <label><input type="checkbox" id="usar-maiusculas" checked /> Maiúsculas</label>
+      <label><input type="checkbox" id="usar-minusculas" checked /> Minúsculas</label>
+      <label><input type="checkbox" id="usar-numeros" checked /> Números</label>
+      <label><input type="checkbox" id="usar-simbolos" checked /> Símbolos</label>
+    </div>
+
+    <button id="btn-gerar">🔐 Gerar Senha</button>
+
+    <div class="forca">
+      Força: <span id="texto-forca">---</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
