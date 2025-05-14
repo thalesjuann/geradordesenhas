@@ -20,7 +20,7 @@ Um gerador de senhas moderno e responsivo feito com **HTML**, **CSS** e **JavaSc
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ## ▶️ Como usar
 
