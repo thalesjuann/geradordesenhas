@@ -16,6 +16,8 @@ Um gerador de senhas moderno e responsivo feito com **HTML**, **CSS** e **JavaSc
 
 ![preview](./preview.png)
 
+🔗 **[Clique aqui para abrir e testar o projeto](https://thalesjuann.github.io/geradordesenhas/)**  
+
 ## 🧠 Tecnologias
 
 - HTML5
